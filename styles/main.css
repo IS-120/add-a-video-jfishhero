@@ -125,7 +125,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
   background: var(--trust-us-beige);
-  width: 100vw;
+  width: 100%;
   margin-top: 0;
   margin-bottom: 5rem;
   list-style: none;
@@ -188,7 +188,7 @@ header ul {
   align-self: stretch;
   margin-bottom: 2rem;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .hero img {
@@ -466,7 +466,7 @@ video {
 
 .video-wrapper {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 @keyframes run {
