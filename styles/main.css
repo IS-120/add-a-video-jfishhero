@@ -145,7 +145,7 @@ h3 {
 
 header {
   align-self: stretch;
-  max-width: 50rem;
+ /* max-width: 50rem;*/
 }
 
 header ul {
@@ -558,6 +558,11 @@ video {
 
 @media (min-width: 801px) {
   /* desktop CSS */
+  
+  header nav {
+    max-width: 50rem;
+    margin: inherit auto;
+  }
   .card {
     flex: 1 1;
     flex: 1 1 0;
